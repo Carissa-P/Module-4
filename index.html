@@ -15,6 +15,7 @@
 
     <!-- Your own additional style sheet -->
     <link href="styles/style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <div>
@@ -117,10 +118,9 @@
 
     <div class="card">
       <div class="card-header">
-        <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          
-          Womens Haircut - $45
-        </a>
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+          href="#" data-toggle="tooltip" title="Click to expand">Womens' Haircut - $45
+      </a>
       </div>
       <div id="collapseOne" class="collapse show" data-parent="#accordion">
         <div class="card-body">
@@ -174,8 +174,8 @@
 
     <div class="card">
       <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-        Womens Colour - $85 & up 
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+          href="#" data-toggle="tooltip" title="Click to expand">Womens' Colouring  - $85
       </a>
       </div>
       <div id="collapseTwo" class="collapse" data-parent="#accordion">
@@ -183,7 +183,7 @@
 
           <div class="container-fluid">
 
-            <p>We offer a variety of womens' hair colouring including balayage, highlights and Ombre.</p>
+            <p>We offer a variety of womens' haircuts for short, medium and long  hair lengths.</p>
             <div class="row">
 
               <div class="col-sm-4" style="background-color:white;">
@@ -225,9 +225,9 @@
     </div>
     <div class="card">
       <div class="card-header">
-        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-          Womens Hairstyle - $55 & up 
-        </a>
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo"
+          href="#" data-toggle="tooltip" title="Click to expand">Womens' Hairstyle  - $55
+      </a>
       </div>
       
       <div id="collapseThree" class="collapse" data-parent="#accordion">
@@ -235,7 +235,7 @@
 
           <div class="container-fluid">
 
-            <p>We offer a variety of womens' hairstyling options including updo's and hair curling.</p>
+            <p>We offer a variety of womens' haircuts for short, medium and long  hair lengths.</p>
             <div class="row">
 
               <div class="col-sm-4" style="background-color:white;">
@@ -243,7 +243,7 @@
                 <img src="images/updo.png" class="mx-auto d-block" width="95%" height="75%"> 
                   <div class="text-center">
                     <br>
-                    <h4> Highlights - $85 </h4> 
+                    <h4> Curls- $55 </h4> 
                     </div>
 
                   </div>
@@ -253,7 +253,7 @@
                   <img src="images/curl.png" class="mx-auto d-block" width="95%" height="75%"> 
                     <div class="text-center">
                       <br>
-                    <h4> Ombre - $95 </h4> 
+                    <h4> Updo - $95 </h4> 
                     </div>
                   
                    </div>
@@ -281,7 +281,7 @@
    <p><b>Select a service: </b></p>
   <form action="/action_page.php">
     <select name="cars" class="custom-select mb-3">
-      <option selected>Custom Select Menu</option>
+      <option selected>Service</option>
       <option value="volvo">Haircut - $45 </option>
       <option value="fiat">Highlights - $85</option>
       <option value="audi">Ombre - $95</option>
@@ -317,8 +317,11 @@
       <input type="password" class="form-control" id="pwd" name="password">
     </div>
     
- 
-    <button type="submit" class="btn btn-secondary">Book Appointment</button>
+  <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Click to submit ">
+  Book Appointment
+</button>
+
+
     <br>
 
   </form>
@@ -326,4 +329,5 @@
 </div>
 </div>
 </div>
-</body>
+</body>''
+<script src="scripts/main.js"></script>
