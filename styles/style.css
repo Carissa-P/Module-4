@@ -8,6 +8,9 @@ h1 {
   align: left;
 }
 
+h2{
+ text-align: center;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -36,8 +39,8 @@ html {
 }
 
 .about-section {
-  padding: 50px;
-  text-align: center;
+  padding: 20px;
+  //text-align: center;
   background-color: #474e5d;
   color: white;
 }
@@ -81,6 +84,24 @@ html {
 
 .center {
   margin: auto;
-  width: 70%;
+  width: 80%;
   padding: 10px;
+}
+
+.about-section2 {
+  padding: 20px;
+  //text-align: center;
+  background-color: #474e5d;
+
+}
+
+.backColour{
+  background-color:rgb(71, 78, 93, 0.4);
+}
+
+.backColour2{
+
+  background-color:rgb(71, 78, 93, 0.4);
+  
+
 }
